@@ -1,0 +1,14 @@
+#include<stdio.h>
+sum();
+int main()
+{
+    sum();
+    return 0;
+}
+sum()
+{
+    int a,b;
+    printf("Input numbers:");
+    scanf("%d%d",&a,&b);
+    printf("Sum of digit : %d",a+b);
+}
